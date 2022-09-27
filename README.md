@@ -39,7 +39,7 @@ docker ps // good for checking status of the nodes
 docker stop // terminates all nodes instantly
 
 
-ocker build -t cordapp // build the rpc client in docker
+docker build -t cordapp // build the rpc client in docker
 docker run --name cordapp -p 8080:8080 iot-simulator // run the client in docker
 docker stop cordapp // stop the client in docker
 ```
